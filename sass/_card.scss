@@ -1,0 +1,31 @@
+form {
+    padding: 3vw;
+    border-radius: 0px 0px 15px 15px;
+    position: relative;
+    background-color: #3F3F50;
+    border-left: 2px solid #6259FA; 
+    border-right: 2px solid #6259FA; 
+    border-bottom: 2px solid #6259FA;
+}
+
+form::before {
+content:'';
+  position: absolute;
+  background-color: #6259FA;
+  width: 3vw;
+  height: 2px;
+  left: 82vw;
+  top: 0vw;
+  
+}
+
+form::after {
+    content:'';
+      position: absolute;
+      background-color: #6259FA;
+      width: 3vw;
+      height: 2px;
+      left: 0vw;
+      top: 0vw;
+      
+    }

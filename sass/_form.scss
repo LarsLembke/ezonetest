@@ -1,0 +1,196 @@
+   @font-face {
+       font-family: Sharpiro;
+       src: url(/fonts/sharpiro-regular.woff2);
+   }
+
+   @font-face {
+       font-family: Uniform Pro Con;
+       src: url(/fonts/uniform-pro-con-medium.woff2);
+   }
+
+   label {
+       font-family: Uniform Pro Con;
+        color: white;
+        margin-left: 5vw;
+   }
+
+   #who_are_you input {
+       float: right;
+       border-radius: 25px;
+       border: 1px solid #6259FA;
+       background-color: #16162A;
+       margin-right: 5vw;
+   }
+
+   span {
+       position: relative; 
+       top: -6.5vw;
+       display: block; 
+       overflow: hidden; 
+       color: white;
+   }
+
+   input {
+       padding: 2vw;
+       color: white;
+       font-family: Uniform Pro Con;
+        font-weight: normal;
+   }
+
+   form {
+       position: relative;
+        margin-top: 5vw;
+        margin-left: 5vw; 
+        margin-right: 5vw;
+   }
+
+   h1 {
+       position: relative; 
+        top: -10.5vw;
+       font-size: 6vw;
+       font-family: Sharpiro;
+       text-transform: uppercase;
+       color: transparent; 
+        -webkit-text-stroke: 0.01px;
+        -webkit-text-stroke-color: #B9F8B9;
+        text-align: center;
+
+   }
+
+   h2 {
+        position: relative; 
+        top: -5vw;
+        font-family: Uniform Pro Con;
+        font-weight: normal;
+        color: #B9F8B9;
+        text-align: center;
+
+   }
+
+  .next {
+    
+    font-family: Uniform Pro Con;
+    font-weight: normal;
+    background-color: #16162A;
+    border: 1px solid #5BE080;
+    color: white;
+    border-radius: 10px;
+    padding: 1vw 6vw 1vw 6vw;
+    width: 40%;
+    margin: auto; 
+    display: flex; 
+    justify-content: center;
+    margin-top: 5vw;
+  } 
+
+  .next2 {
+      position: relative;
+      left: -17vw;
+      margin: auto; 
+      width: 40%;
+  }
+
+  .kalender {
+      border: 1px solid #6259FA;
+      background-color: #16162A; 
+      border-radius: 10px;
+      float: right;
+      height: 2vw;
+      position: relative;
+      top: -5.5vw;
+      color: white;
+     
+  }
+
+  #continents {
+        border: 1px solid #6259FA;
+        background-color: #16162A; 
+        border-radius: 10px; 
+        width: 40%;
+        position: relative;
+        top: -16.5vw;
+        font-family: Uniform Pro Con;
+        font-weight: normal;
+        float: right;
+        color: white;
+        padding: 0.5vw 0vw 0.5vw 1vw;
+
+  }
+
+  .continent {
+    position: relative;
+    line-height: 4;
+    
+
+  }
+
+  #countries {
+    border: 1px solid #6259FA;
+    background-color: #16162A; 
+    color: white;
+    border-radius: 10px;
+    padding: 0.5vw 0vw 0.5vw 1vw;
+    position: relative;
+    font-family: Uniform Pro Con;
+    font-weight: normal;
+    float: right;
+    right: -31vw;
+    margin-bottom: 10vw;
+    top: -6vw;
+    width: 40%;
+  }
+
+  #email {
+      float: right;
+      font-family: Uniform Pro Con;
+    font-weight: normal;
+    border: 1px solid #6259FA;
+    background-color: #16162A; 
+    color: white;
+    border-radius: 10px;
+    padding: 0.5vw 0vw 0.5vw 2vw;
+    margin-bottom: 4vw;
+  }
+
+  #psw {
+      float: right;
+      font-family: Uniform Pro Con;
+    font-weight: normal;
+    border: 1px solid #6259FA;
+    background-color: #16162A; 
+    color: white;
+    border-radius: 10px;
+    padding: 0.5vw 0vw 0.5vw 2vw;
+    margin-bottom: 8vw;
+  }
+
+.psw {
+    position: relative; 
+    float: left;
+    line-height: 5.5;
+    left: -16vw;
+    
+}
+
+  .email {
+      position: relative; 
+      float: left;
+    
+  }
+
+  #gaming_styles_grid {
+    position: relative;
+    left: -2vw;
+    top: -4vw;
+      line-height: 1.5;
+      display: grid; 
+      grid-template-columns: 5fr 0.2fr 5fr 0.2fr;
+      border: none;
+      
+  }
+
+ 
+
+ 
+
+

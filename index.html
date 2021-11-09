@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <title>Ezone</title>
+</head>
+
+<body>
+
+    <div id="dots_top">
+        <img src="/img/mobile_dots_top.png" alt="">
+    </div>
+
+    <form>
+
+        <!-- <div id="who_are_you" class="section_0">
+            <h1>Let's get to know you!</h1>
+            <h2>Who are you?</h2>
+            <div id="who_are_you_options">
+                <label for="firstname">First name:</label>
+                <span>
+            <input type="text" id="firstname" name="firstname">
+        </span>
+                <label for="lastname">Last name:</label>
+                <span>
+            <input type="text" id="lastname" name="lastname">
+        </span>
+                <label for="gamingtag">Gamer#:</label>
+                <span>
+            <input type="text" id="gamingtag" name="gamertag">
+        </span>
+            </div>
+            <button class="next">Next</button>
+        </div>
+        <div class="section_1 hide">
+            <h1>Age and location</h1>
+            <h2>How old are you and where are you from?</h2>
+            <label for="dob">Date of Birth</label>
+            <div id="grid">
+                <input type="date" name="dob" class="kalender">
+                <label for="continent" class="continent">Continent</label>
+                <label for="country" class="country">Country</label>
+            </div>
+            <select name="" id="continents">
+            
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Australia">Australia</option>
+                <option value="North_america">North America</option>
+                <option value="South_america">South America</option>
+                <option value="Arctica">Arctica</option>
+                <option value="Antarctica">Antarctica</option>
+            </select>
+
+
+
+            <select name="" id="countries">
+                <option value="Country1">Country 1</option>
+                <option value="Country2">Country 2</option>
+                <option value="Country3">Country 3</option>
+                <option value="Country4">Country 4</option>
+                <option value="Country5">Country 5</option>
+            </select>
+            <button class="next">Next</button>
+        </div>
+        <div class="section_2 hide">
+            <h1>Create your account</h1>
+            <h2>Choose your login information</h2>
+            <label for="email" class="email">E-mail</label>
+            <input type="email" id="email" name="email">
+            <label for="psw" class="psw">Password</label>
+            <input type="password" id="psw" name="password">
+            <button class="next next2">Next</button>
+        </div> -->
+        <div class="section_3">
+            <h1>Styles of gaming</h1>
+            <h2>Which style of gaming do you play?</h2>
+            <fieldset id="gaming_styles_grid">
+                <legend id="gaming_styles"></legend>
+                <label for="FPS">FPS</label>
+                <input type="checkbox" id="FPS" name="game_style" value="FPS">
+                <label for="MMORPG">MMORPG</label>
+                <input type="checkbox" id="MMORPG" name="game_style" value="MMORPG">
+                <label for="Sports">Sports</label>
+                <input type="checkbox" id="Sports" name="game_style" value="Sports">
+                <label for="Racing">Racing</label>
+                <input type="checkbox" id="Racing" name="game_style" value="Racing">
+                <label for="Tower_defense">Tower defense</label>
+                <input type="checkbox" id="Tower_defense" name="game_style" value="Tower_defense">
+                <label for="RTS">RTS</label>
+                <input type="checkbox" id="RTS" name="game_style" value="RTS">
+                <label for="Simulation">Simulation</label>
+                <input type="checkbox" id="Simulation" name="game_style" value="Simulation">
+                <label for="Role_playing">Role-playing</label>
+                <input type="checkbox" id="Role_playing" name="game_style" value="Role_playing">
+                <label for="Adventure">Adventure</label>
+                <input type="checkbox" id="Adventure" name="game_style" value="Adventure">
+                <label for="Survival">Survival</label>
+                <input type="checkbox" id="Survival" name="game_style" value="Survival">
+                <label for="Fighting">Fighting</label>
+                <input type="checkbox" id="Fighting" name="game_style" value="Fighting">
+                <label for="Battle_royale">Battle royale</label>
+                <input type="checkbox" id="Battle_royale" name="game_style" value="Battle_royale">
+                <label for="Rhythm">Rhythm</label>
+                <input type="checkbox" id="Rhythm" name="game_style" value="Rhythm">
+                <label for="Platform">Platform</label>
+                <input type="checkbox" id="Platform" name="game_style" value="Platform">
+            </fieldset>
+            <button class="next">Next</button>
+        </div>
+        <!-- <div class="section_4">
+            <fieldset>
+                <legend>Games</legend>
+                <input type="checkbox" id="CSGO" name="game" value="CSGO">
+                <label for="CSGO">CS:GO</label>
+                <input type="checkbox" id="Tekken" name="game" value="Tekken">
+                <label for="Tekken">Tekken</label>
+                <input type="checkbox" id="FIFA" name="game" value="FIFA">
+                <label for="FIFA">FIFA</label>
+                <input type="checkbox" id="Super_Mario" name="game" value="Super_Mario">
+                <label for="Super_Mario">Super Mario</label>
+                <input type="checkbox" id="Fortnite" name="game" value="Fortnite">
+                <label for="Fortnite">Fortnite</label>
+                <input type="checkbox" id="Call_of_Duty" name="game" value="Call_of_Duty">
+                <label for="Call_of_Duty">Call of Duty</label>
+                <input type="checkbox" id="The_Sims" name="game" value="The_Sims">
+                <label for="The_Sims">The Sims</label>
+                <input type="checkbox" id="Mortal_Combat" name="game" value="Mortal_Combat">
+                <label for="Mortal_Combat">Mortal Combat</label>
+                <input type="checkbox" id="Guitar_Hero" name="game" value="Guitar_Hero">
+                <label for="Guitar_Hero">Guitar Hero</label>
+                <input type="checkbox" id="World_of_Warcraft" name="game" value="World_of_Warcraft">
+                <label for="World_of_Warcraft">World of Warcraft</label>
+                <input type="checkbox" id="Skyrim" name="game" value="Skyrim">
+                <label for="Skyrim">Skyrim</label>
+                <input type="checkbox" id="Starcraft" name="game" value="Starcraft">
+                <label for="Starcraft">Starcraft</label>
+                <input type="checkbox" id="Warcraft" name="game" value="Warcraft">
+                <label for="Warcraft">Warcraft</label>
+                <input type="checkbox" id="League_of_Legends" name="game" value="League_of_Legends">
+                <label for="League_of_Legends">League of Legends</label>
+                <input type="checkbox" id="Dota" name="game" value="Dota">
+                <label for="Dota">Dota</label>
+                <input type="checkbox" id="Valorant" name="game" value="Valorant">
+                <label for="Valorant">Valorant</label>
+                <input type="checkbox" id="Left_4_Dead" name="game" value="Left_4_Dead">
+                <label for="Left_4_Dead">Left 4 Dead</label>
+                <input type="checkbox" id="Overwatch" name="game" value="Overwatch">
+                <label for="Overwatch">Overwatch</label>
+                <input type="checkbox" id="PUBG" name="game" value="PUBG">
+                <label for="PUBG">PUBG</label>
+                <input type="checkbox" id="Diablo" name="game" value="Diablo">
+                <label for="Diablo">Diablo</label>
+                <input type="checkbox" id="Minecraft" name="game" value="Minecraft">
+                <label for="Minecraft">Minecraft</label>
+            </fieldset>
+            <button class="next">Next</button>
+        </div>
+        <div class="section_5 hide">
+            <h1>Strengths</h1>
+            <h2>What are your strengths?</h2>
+            <fieldset>
+                <legend>Abillities</legend>
+                <input type="checkbox" id="handeye" name="strength" value="">
+                <label for="handeye">Hand/eye coordination</label>
+                <input type="checkbox" id="reaction" name="strength" value="">
+                <label for="reaction">Reaction time</label>
+                <input type="checkbox" id="hearing" name="strength" value="">
+                <label for="hearing">Hearing</label>
+                <input type="checkbox" id="vision" name="strength" value="">
+                <label for="vision">Vision</label>
+                <input type="checkbox" id="communication" name="strength" value="">
+                <label for="communication">Communication</label>
+                <input type="checkbox" id="multitask" name="strength" value="">
+                <label for="multitask">Multi-tasking</label>
+                <input type="checkbox" id="mindset" name="strength" value="">
+                <label for="mindset">Mindset</label>
+                <input type="checkbox" id="nutrition" name="strength" value="">
+                <label for="nutrition">Nutrition</label>
+                <input type="checkbox" id="injuries" name="strength" value="">
+                <label for="injuries">Injuries</label>
+                <input type="checkbox" id="technology" name="strength" value="">
+                <label for="technology">Technology</label>
+                <input type="checkbox" id="physiology" name="strength" value="">
+                <label for="physiology">Physiology</label>
+                <input type="checkbox" id="sleep" name="strength" value="">
+                <label for="sleep">Sleep</label>
+                <input type="checkbox" id="stress" name="strength" value="">
+                <label for="stress">Stress</label>
+                <input type="checkbox" id="tactical" name="strength" value="">
+                <label for="tactical">Tactical</label>
+                <input type="checkbox" id="strategy" name="strength" value="">
+                <label for="strategy">Strategy</label>
+                <input type="checkbox" id="leadership" name="strength" value="">
+                <label for="leadership">Leadership</label>
+            </fieldset>
+            <button class="next">Next</button>
+        </div>
+        <div class="section_6 hide">
+            <h1>Improvements</h1>
+            <h2>What areas of your gameplay would you like to improve?</h2>
+            <fieldset>
+                <legend>Abilities</legend>
+                <input type="checkbox" id="handeye_imp" name="improvement" value="">
+                <label for="handeye_imp">Hand/eye coordination</label>
+                <input type="checkbox" id="reaction_imp" name="improvement" value="">
+                <label for="reaction_imp">Reaction time</label>
+                <input type="checkbox" id="hearing_imp" name="improvement" value="">
+                <label for="hearing_imp">Hearing</label>
+                <input type="checkbox" id="vision_imp" name="improvement" value="">
+                <label for="vision_imp">Vision</label>
+                <input type="checkbox" id="communication_imp" name="improvement" value="">
+                <label for="communication_imp">Communication</label>
+                <input type="checkbox" id="multitask_imp" name="improvement" value="">
+                <label for="multitask_imp">Multi-tasking</label>
+                <input type="checkbox" id="mindset_imp" name="improvement" value="">
+                <label for="mindset_imp">Mindset</label>
+                <input type="checkbox" id="nutrition_imp" name="improvement" value="">
+                <label for="nutrition_imp">Nutrition</label>
+                <input type="checkbox" id="injuries_imp" name="improvement" value="">
+                <label for="injuries_imp">Injuries</label>
+                <input type="checkbox" id="technology_imp" name="improvement" value="">
+                <label for="technology_imp">Technology</label>
+                <input type="checkbox" id="physiology_imp" name="improvement" value="">
+                <label for="physiology_imp">Physiology</label>
+                <input type="checkbox" id="sleep_imp" name="improvement" value="">
+                <label for="sleep_imp">Sleep</label>
+                <input type="checkbox" id="stress_imp" name="improvement" value="">
+                <label for="stress_imp">Stress</label>
+                <input type="checkbox" id="tactical_imp" name="improvement" value="">
+                <label for="tactical_imp">Tactical</label>
+                <input type="checkbox" id="strategy_imp" name="improvement" value="">
+                <label for="strategy_imp">Strategy</label>
+                <input type="checkbox" id="leadership_imp" name="improvement" value="">
+                <label for="leadership_imp">Leadership</label>
+
+            </fieldset>
+            <button class="next">Next</button>
+        </div>
+        <div class="section_7 hide">
+            <h1>Services</h1>
+            <h2>What services are you interested in?</h2>
+            <fieldset>
+                <legend>Services</legend>
+                <input type="checkbox" id="1" name="service" value="">
+                <label for="">I'd like to receive newsletters</label>
+                <input type="checkbox" id="2" name="service" value="">
+                <label for="">I want a mentor</label>
+                <input type="checkbox" id="3" name="service" value="">
+                <label for="">I'd like to be a mentor</label>
+                <input type="checkbox" id="4" name="service" value="">
+                <label for="">I'd like to receive articles</label>
+                <input type="checkbox" id="5" name="service" value="">
+                <label for="">I'd like to receive articles</label>
+            </fieldset>
+            <p>You can always change your mind later regarding the services you'd like.</p>
+            <button class="submit">Submit</button>
+        </div> -->
+
+
+
+    </form>
+
+    <div id="dots_bottom">
+        <img src="/img/mobile_dots_bottom.png" alt="">
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
